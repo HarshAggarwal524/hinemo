@@ -1,0 +1,24 @@
+# --- Core data handling ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# --- Data collection ---
+praw>=7.7.0              # Reddit API wrapper (free tier)
+requests>=2.31.0          # for the Twitter gateway top-up script
+
+# --- Labeling ---
+openai>=1.30.0            # GPT-4o-mini emotion labeling
+
+# --- Config / env ---
+python-dotenv>=1.0.0
+
+# --- Language tagging (Step 1.3 / IndicLID) ---
+# IndicLID isn't a standard pip package — install from source per
+# https://github.com/AI4Bharat/IndicLID. indic-nlp-library is a lighter-weight
+# fallback/complement for basic Indic text normalization.
+indic-nlp-library>=0.92
+
+# --- Modeling (Segments 2-5, later) ---
+transformers>=4.40.0
+torch>=2.2.0

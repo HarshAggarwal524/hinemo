@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.venv-hinemo
+
+
+# Data (large / shouldn't live in git history)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.h5
+
+# Checkpoints from labeling script
+_checkpoint_*.csv
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
