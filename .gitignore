@@ -25,3 +25,6 @@ _checkpoint_*.csv
 # OS / editor
 .DS_Store
 .vscode/settings.json
+
+
+test.ipynb
