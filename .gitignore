@@ -29,3 +29,22 @@ _checkpoint_*.csv
 
 test.ipynb
 data/Extra(fortesting)/
+
+# Model weights (large binaries — stored on Drive, not git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Hidden states from probing experiments
+*.npy
+
+# Training artifacts
+*.png
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing data
+dataset/data/Extra(fortesting)/
+dataset/data/interim/*.jsonl
