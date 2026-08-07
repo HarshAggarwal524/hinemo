@@ -1,0 +1,48 @@
+
+======================================================================
+GLOBAL λ PROBING — 3k
+======================================================================
+Model                               State        LSL    Peak R²
+-----------------------------------------------------------------
+bert-base-multilingual-cased        pretrained   5      0.7139
+bert-base-multilingual-cased        finetuned    4      0.6970
+muril-base-cased                    pretrained   4      0.7615
+muril-base-cased                    finetuned    3      0.7120
+xlm-roberta-base                    pretrained   12     0.7005
+xlm-roberta-base                    finetuned    1      0.6525
+
+==========================================================================================
+EMOTION-CONDITIONED λ PROBING — 3k
+==========================================================================================
+Model                               State        ELDS     Anger  Disgust  Joy    Sadness
+-------------------------------------------------------------------------------------
+bert-base-multilingual-cased        pretrained   0.6667   4      4        5      5
+bert-base-multilingual-cased        finetuned    0.0000   4      4        4      4
+muril-base-cased                    pretrained   0.0000   4      4        4      4
+muril-base-cased                    finetuned    1.1667   4      2        4      3
+xlm-roberta-base                    pretrained   0.0000   12     12       12     12
+xlm-roberta-base                    finetuned    0.0000   1      1        1      1
+
+======================================================================
+GLOBAL λ PROBING — 4k
+======================================================================
+Model                               State        LSL    Peak R²
+-----------------------------------------------------------------
+bert-base-multilingual-cased        pretrained   5      0.7171
+bert-base-multilingual-cased        finetuned    4      0.7050
+muril-base-cased                    pretrained   4      0.7584
+muril-base-cased                    finetuned    3      0.7235
+xlm-roberta-base                    pretrained   12     0.7051
+xlm-roberta-base                    finetuned    1      0.6562
+
+==========================================================================================
+EMOTION-CONDITIONED λ PROBING — 4k
+==========================================================================================
+Model                               State        ELDS     Anger  Disgust  Joy    Sadness
+-------------------------------------------------------------------------------------
+bert-base-multilingual-cased        pretrained   0.6667   4      4        5      5
+bert-base-multilingual-cased        finetuned    0.0000   4      4        4      4
+muril-base-cased                    pretrained   1.3333   6      4        6      4
+muril-base-cased                    finetuned    0.5000   3      3        4      3
+xlm-roberta-base                    pretrained   0.0000   12     12       12     12
+xlm-roberta-base                    finetuned    0.0000   1      1        1      1
